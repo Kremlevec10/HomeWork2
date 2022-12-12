@@ -33,7 +33,6 @@ static void degreeNumberA(int numberA, int numberB) {
     for (int i = 1; i < numberB; i++)
     {
         number = number * numberA;
-        Console.WriteLine(number);
     }
     Console.WriteLine($"число {numberA} в степени {numberB} = {number}");
 }
