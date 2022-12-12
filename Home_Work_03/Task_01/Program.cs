@@ -3,6 +3,7 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
+
 string messeg = getMesseg();
 int number = getNumberFromMesseg(messeg);
 Console.WriteLine(checkPolindrom(number));

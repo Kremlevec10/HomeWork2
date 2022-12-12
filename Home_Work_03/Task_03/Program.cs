@@ -4,6 +4,8 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
+
+
 RasingANumber(5);
 
 void RasingANumber(int n) {
