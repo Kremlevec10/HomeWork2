@@ -9,13 +9,14 @@ Console.WriteLine(summOddElements());
 
 static int summOddElements() {
     int[] arr = fillByArr(greatArr(getLengthByArr()));
+
     int summ = 0;
     for (int i = 1; i < arr.Length; i++)
     {
         if (i % 2 != 0)
         {
-            summ =+ arr[i];
-        }
+            summ = summ + arr[i];
+        } 
     }
     return summ;
 }
